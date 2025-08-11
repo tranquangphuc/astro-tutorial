@@ -1,6 +1,8 @@
 ---
 import "../styles/global.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import aboutPic from "../assets/about.jpg";
 
 const pageTitle = "About Me";
 
@@ -24,6 +26,12 @@ const textCase = "uppercase";
 
 <BaseLayout pageTitle={pageTitle}>
     <h2>... and my new Astro site!</h2>
+
+    <Image
+        src={aboutPic}
+        alt="My team"
+        layout="full-width"
+    />
 
     <p>
         I am working through Astro's introductory tutorial. This is the second

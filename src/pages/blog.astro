@@ -14,7 +14,7 @@ const allPosts = await getCollection("blog");
     <ul>
         {
             allPosts.map((post: any) => (
-                <BlogPost url={`/posts/${post.id}`} title={post.data.title} />
+                <BlogPost url={`/posts/${post.id}`} title={post.data.title} cover={post.data.cover} />
             ))
         }
     </ul>

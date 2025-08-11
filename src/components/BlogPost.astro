@@ -1,5 +1,9 @@
 ---
-const { title, url } = Astro.props;
+import { Image } from "astro:assets";
+const { title, url, cover } = Astro.props;
 ---
 
-<li><a href={url}>{title}</a></li>
+<li>
+    {cover && <Image src={cover} alt={title} width="300" />}
+    <a href={url}>{title}</a>
+</li>

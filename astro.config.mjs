@@ -7,4 +7,7 @@ import preact from "@astrojs/preact";
 export default defineConfig({
   site: "https://example.com",
   integrations: [preact()],
+  image: {
+    responsiveStyles: true,
+  }
 });
