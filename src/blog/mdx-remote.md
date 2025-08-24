@@ -1,345 +1,245 @@
-# MDX Remote 2!
+---
+__Advertisement :)__
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
 
-# Files
+You will like those projects!
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+---
 
-## Create files and folders
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
-## Switch to another file
+## Horizontal Rules
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+___
 
-## Rename a file
+---
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+***
 
-## Delete a file
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+## Typographic replacements
 
-## Export a file
+Enable typographer option to see result.
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
 
-# Synchronization
+test.. test... test..... test?..... test!....
 
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
+!!!!!! ???? ,,  -- ---
 
-There are two types of synchronization and they can complement each other:
+"Smartypants, double quotes" and 'single quotes'
 
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
 
-  > To start syncing your workspace, just sign in with Google in the menu.
+## Emphasis
 
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-  > Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
+**This is bold text**
 
-## Open a file
+__This is bold text__
 
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
+*This is italic text*
 
-## Save a file
+_This is italic text_
 
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
+~~Strikethrough~~
 
-## Synchronize a file
 
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
+## Blockquotes
 
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
 
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
 
-## Manage file synchronization
 
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
+## Lists
 
-# Publication
+Unordered
 
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
 
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
+Ordered
 
-## Publish a File
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
 
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
 
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
 
-## Update a publication
+Start numbering with offset:
 
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
+57. foo
+1. bar
 
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                  | ASCII                           | HTML                          |
-| ---------------- | ------------------------------- | ----------------------------- |
-| Single backticks | `'Isn't this fun?'`             | 'Isn't this fun?'             |
-| Quotes           | `"Isn't this fun?"`             | "Isn't this fun?"             |
-| Dashes           | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
 
 ## Code
 
-```js showLineNumbers {2,5,7,12} title="program to check leap year" caption="three conditions to find out the leap year"
-// program to check leap year
-function checkLeapYear(year) {
-  //three conditions to find out the leap year
-  if ((0 == year % 4 && 0 != year % 100) || 0 == year % 400) {
-    console.log(year + " is a leap year");
-  } else {
-    console.log(year + " is not a leap year");
-  }
-}
+Inline `code`
 
-// take input
-const year = prompt("Enter a year:");
+Indented code
 
-checkLeapYear(year);
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
 ```
 
-```ts
-console.log('hewwo') // [\!code --]
-console.log('hello') // [\!code ++]
-console.log('goodbye')
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
 ```
 
-## KaTeX
+## Tables
 
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
-The _Gamma function_ satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+Right aligned columns
 
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-## UML diagrams
+## Links
 
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+[link text](http://dev.nodeca.com)
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long long time, so long hat the text does not fit on a row.
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
 
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
-And this will produce a flow chart:
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+## Images
 
-## GitGraph Diagrams
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
-```mermaid
-gitGraph
-  commit
-  branch hotfix
-  checkout hotfix
-  commit
-  branch develop
-  checkout develop
-  commit id:"ash" tag:"abc"
-  branch featureB
-  checkout featureB
-  commit type:HIGHLIGHT
-  checkout main
-  checkout hotfix
-  commit type:NORMAL
-  checkout develop
-  commit type:REVERSE
-  checkout featureB
-  commit
-  checkout main
-  merge hotfix
-  checkout featureB
-  commit
-  checkout develop
-  branch featureA
-  commit
-  checkout develop
-  merge hotfix
-  checkout featureA
-  commit
-  checkout featureB
-  commit
-  checkout develop
-  merge featureA
-  branch release
-  checkout release
-  commit
-  checkout main
-  commit
-  checkout release
-  merge main
-  checkout develop
-  merge release
-```
+Like links, Images also have a footnote style syntax
 
-## Long CSS
+![Alt text][id]
 
-```sass showLineNumbers title="global.css"
-@import "tailwindcss";
-@plugin "@tailwindcss/typography";
+With a reference later in the document defining the URL location:
 
-@custom-variant dark (&:where(.dark, .dark *));
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-noto-sans);
-  --font-mono: var(--font-jetbrains-mono);
-}
+## Plugins
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
 
-body {
-  /* background: var(--background);
-  color: var(--foreground); */
-  font-family: var(--font-noto-sans);
-}
 
-@utility display-unset {
-  display: unset;
-}
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
 
-/* #region rehype-pretty-code */
+> Classic markup: :wink: :cry: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
 
-[data-rehype-pretty-code-figure] {
-  pre {
-    @apply overflow-auto rounded-lg px-0 py-4 font-mono;
-    color: var(--shiki-light);
-    background-color: var(--shiki-light-bg);
-  }
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
 
-  pre > code {
-    counter-reset: line;
-  }
 
-  code[data-line-numbers] {
-    counter-reset: line;
-  }
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
 
-  code[data-line-numbers] > [data-line]::before {
-    counter-increment: line;
-    content: counter(line);
-    @apply mr-4 inline-block w-4 text-right text-gray-500;
-  }
+- 19^th^
+- H~2~O
 
-  pre [data-line] {
-    @apply border-l-2 border-l-transparent px-4;
-  }
 
-  span[data-highlighted-line] {
-    background: rgba(200, 200, 255, 0.1);
-    @apply border-l-blue-400;
-  }
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
 
-  [data-highlighted-chars] {
-    @apply rounded bg-zinc-600/50;
-    box-shadow: 0 0 0 4px rgb(82 82 91 / 0.5);
-  }
+++Inserted text++
 
-  [data-chars-id] {
-    @apply border-b-2 p-1 shadow-none;
-  }
 
-  [data-chars-id] span {
-    @apply !text-inherit;
-  }
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
 
-  [data-chars-id="v"] {
-    @apply border-b-pink-600 bg-rose-800/50 font-bold !text-pink-300;
-  }
+==Marked text==
 
-  [data-chars-id="s"] {
-    @apply border-b-yellow-600 bg-yellow-800/50 font-bold !text-yellow-300;
-  }
 
-  [data-chars-id="i"] {
-    @apply border-b-purple-600 bg-purple-800/50 font-bold !text-purple-200;
-  }
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
-  &:has(> [data-rehype-pretty-code-title]) pre {
-    @apply !rounded-t-none;
-  }
+Footnote 1 link[^first].
 
-  [data-rehype-pretty-code-title] {
-    @apply rounded-t-lg bg-stone-300 px-3 py-2 text-sm font-semibold text-stone-700;
-  }
+Footnote 2 link[^second].
 
-  code[data-theme*=" "],
-  code[data-theme*=" "] span {
-    color: var(--shiki-light);
-    /* background-color: var(--shiki-light-bg); */
-  }
-}
+Inline footnote^[Text of inline footnote] definition.
 
-html.dark {
-  [data-rehype-pretty-code-figure] {
-    pre {
-      color: var(--shiki-dark);
-      background-color: var(--shiki-dark-bg);
-    }
+Duplicated footnote reference[^second].
 
-    code[data-theme*=" "],
-    code[data-theme*=" "] span {
-      color: var(--shiki-dark);
-      /* background-color: var(--shiki-dark-bg); */
-    }
+[^first]: Footnote **can have markup**
 
-    [data-rehype-pretty-code-title] {
-      @apply bg-stone-700 text-stone-300;
-    }
-  }
-}
+    and multiple paragraphs.
 
-/* figure[data-rehype-pretty-code-figure]:has(> [data-rehype-pretty-code-title])
-  pre {
-  @apply !rounded-t-none;
-}
+[^second]: Footnote text.
 
-/* #endregion */
-```
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b
+
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+*here be dragons*
+:::
